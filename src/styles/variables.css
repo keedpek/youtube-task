@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #ff0000;
+  --primary-color-hover: #e00000;
+
+  --background-color: #ffffff;
+  --input-background-color: #fafafa;
+  --timing-background-color: #00000055;
+
+  --text-gray: #898989;
+  --text-dark-gray: #666666;
+  --text-light-gray: #c2c2c2;
+  --text-gray-hover: #555555;
+  --text-dark: #19202c;
+  --text-black: #000000;
+  --text-white: #ffffff;
+
+  --font-size-xxs: 0.75rem;
+  --font-size-xs: 0.8125rem;
+  --font-size-s: 0.875rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.125rem;
+  --font-size-xl: 1.625rem;
+
+  --spacing-unit-3xs: 10px;
+  --spacing-unit-xxs: 15px;
+  --spacing-unit-xs: 20px;
+  --spacing-unit-s: 30px;
+  --spacing-unit-m: 40px;
+  --spacing-unit-l: 50px;
+  --spacing-unit-xl: 60px;
+  --spacing-unit-xxl: 70px;
+
+  --radius-unit-xs: 12px;
+  --radius-unit-s: 14px;
+  --radius-unit-m: 16px;
+  --radius-unit-l: 20px;
+  --radius-unit-xl: 22px;
+  --radius-unit-circle: 50%;
+}

@@ -1,0 +1,108 @@
+header {
+  position: fixed;
+  display: flex;
+  padding: var(--spacing-unit-xs) var(--spacing-unit-xxl) var(--spacing-unit-xs)
+    var(--spacing-unit-s);
+  align-items: center;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--background-color);
+}
+
+.burger-btn {
+  width: 20px;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  background-color: transparent;
+}
+
+.burger-line {
+  width: 20px;
+  height: 3px;
+  border-radius: var(--radius-unit-s);
+  background-color: var(--text-black);
+  margin: 0;
+}
+
+.youtube-logo {
+  margin-left: var(--spacing-unit-s);
+}
+
+.search-bar {
+  display: flex;
+  border-radius: var(--radius-unit-xl);
+  background-color: var(--input-background-color);
+  align-items: center;
+  justify-content: space-between;
+  width: 43%;
+  margin-left: var(--spacing-unit-xl);
+}
+
+.search-bar:focus-within {
+  outline: 1px solid #cdcdcd;
+}
+
+.search-input {
+  padding: var(--spacing-unit-3xs) var(--spacing-unit-xs);
+  border: none;
+  background-color: transparent;
+  border-radius: var(--radius-unit-xl) 0 0 var(--radius-unit-xl);
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  padding: var(--spacing-unit-3xs) var(--spacing-unit-xxs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-btns {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-unit-l);
+  margin-left: 29%;
+}
+
+.header-btn {
+  border: none;
+  background-color: transparent;
+  color: var(--text-gray);
+}
+.header-btn:hover {
+  color: var(--text-gray-hover);
+}
+
+.notification-btn {
+  position: relative;
+}
+
+.notification-counter {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: var(--radius-unit-circle);
+  background-color: var(--primary-color);
+  right: -5px;
+  top: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-white);
+}
+
+.userpic {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-unit-circle);
+  margin-left: var(--spacing-unit-m);
+}
