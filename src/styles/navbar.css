@@ -97,3 +97,9 @@
 .settings-btn:hover {
   color: var(--text-gray-hover);
 }
+
+@media (max-width: 768px) {
+  .aside-navbar {
+    display: none;
+  }
+}
