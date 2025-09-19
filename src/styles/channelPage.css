@@ -386,7 +386,7 @@ main::-webkit-scrollbar-track {
   }
 
   .video-container {
-    padding: 0 var(--spacing-unit-s) var(--spacing-unit-m);
+    padding: 0 var(--spacing-unit-s) var(--spacing-unit-xxl);
     margin-top: 0;
   }
   .videos-list-header {
