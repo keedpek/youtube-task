@@ -3,6 +3,10 @@ main {
   height: 100vh;
   overflow-x: hidden;
   background-color: var(--background-color);
+  scrollbar-color: var(--text-gray) var(--background-color);
+}
+main::-webkit-scrollbar-track {
+  background: var(--background-color);
 }
 
 .channel {
