@@ -23,7 +23,7 @@ header {
   width: 20px;
   height: 3px;
   border-radius: var(--radius-unit-s);
-  background-color: var(--text-black);
+  background-color: var(--text-dark);
   margin: 0;
 }
 

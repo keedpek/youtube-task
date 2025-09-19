@@ -21,6 +21,11 @@ img {
   object-position: center;
 }
 
+h2,
+h3 {
+  color: var(--text-dark);
+}
+
 @font-face {
   font-family: "Mulish";
   src: url("../assets/fonts/static/Mulish-Regular.ttf") format("ttf");
